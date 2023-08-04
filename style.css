@@ -4,7 +4,17 @@
   box-sizing: border-box;
 }
 .main{
+  height:80vh ;
     display :flex ;
     flex-direction: column;
     align-items: center;
+    justify-content: center;
+}
+.btn{
+  width: 20%;
+  height: 30px;
+  background-color: greenyellow;
+}
+.btn:active{
+opacity: 0;
 }
